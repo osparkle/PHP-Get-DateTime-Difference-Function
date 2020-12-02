@@ -5,5 +5,7 @@ The function returns the difference in number of years, months, days, hours, min
 
 # USAGE
 $datetime1 = "2017-October-12 12:00:00";
+
 $datetime2 = "2020-Dec-15 12:00:00";
+
 echo getTimeDiff($datetime1, $datetime2);
