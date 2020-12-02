@@ -4,7 +4,7 @@ Get DateTime Difference Between Two Dates and use pluralize function to format t
 The function returns the difference in number of years, months, days, hours, minues and seconds.
 
 # USAGE
-$datetime1 = "2017-October-12 12:00:00";
+$datetime1 = "2017-Oct-12 12:00:00";
 
 $datetime2 = "2020-Dec-15 12:00:00";
 
