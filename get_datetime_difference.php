@@ -19,20 +19,20 @@
 * This function pluralizes a regular noun that ends with 's'
 * It is used in the getTimeDiff function below
 */
+
 function pluralize($data,$suffix=""){
 
 	if(!is_numeric($data)) {
-		$suffix = " N/A";
+		$plural = " N/A";
 	}else {
 		if($data <= 1){
-			$suffix = $data . " " . $suffix;
+			$plural = $data . " " . $suffix;
 		}else {
-			$suffix = $data . " " . $suffix . "s";
+			$plural = $data . " " . $suffix . "s";
 		}
 	}
-	return $suffix;
+	return $plural;
 }
-
 /*
 * @param datetime1: the first date and time (format: Y-m-d H:i:s)
 * @param datetime2: the second date and time (format: Y-m-d H:i:s)
